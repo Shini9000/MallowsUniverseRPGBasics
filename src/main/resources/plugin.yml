@@ -1,0 +1,30 @@
+name: RPGBasics
+version: '${version}'
+main: net.mallowsuniverse.rpgbasics.RPGBasics
+api-version: 1.19
+load: STARTUP
+authors: [Shini9000, MUDevTeam, MURPG, Varlheim]
+description: Basics for MURPG server
+
+commands:
+  fly:
+    description: Allows the user/s to fly
+  heal:
+    description: Heals the user/s
+  feed:
+    description: Feeds the user/s
+  #Currency not implemented
+  currency:
+    description: Handles currency related tasks
+    usage: /command <add|set|remove|get> (user) <amount>
+    aliases:
+      - eco
+      - money
+      - bal
+  #Currency not implemented
+  #CURRENCY IS NOTTTTTT IIIMMMMPPPPLLEEMMMMMEEEENNNNTTTTEEEEDDD JEEEZ!!!!!
+  godmode:
+    description: Allows Godmode for user/s
+    aliases:
+      - god
+      - superuser
