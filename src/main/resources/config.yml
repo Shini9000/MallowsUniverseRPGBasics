@@ -1,0 +1,41 @@
+Listeners:
+  JoinMessage:
+    First: "&cWelcome &fplayerName &cto MallowsUniverse!"
+    Hundred: "&6-=*=- playerName has just joined for the 100th time! -=*=-"
+    Default: "&7playerName was summoned"
+  QuitMessage:
+    Default: "&7playerName was banished"
+
+Commands:
+  LackPermission: "&4You lack permission to execute this command!"
+  PlayerError: "&4This command can only be used by RPGMechanics!"
+  ConsoleError: "&4Execute error!"
+  OfflinePlayer: "&cThat player is offline currently."
+  Heal:
+    HealSelf: "&aYou have healed yourself."
+    HealSelf_Full: "&cYou are already at full health."
+    HealOthers: "&aYou have healed playerName."
+    HealOthers_Full: "playerName &7is already at full health."
+    BeenHealed: "playerName &ahas healed you."
+  Feed:
+    FeedSelf: "&aYou have fed yourself."
+    FeedSelf_Full: "&cYou are already at full hunger."
+    FeedOthers: "&aYou have fed playerName."
+    FeedOthers_Full: "playerName &7is already at full hunger."
+    BeenFed: "playerName &ahas fed you."
+  Flight:
+    FlightEnable: "&aYou have enabled flight."
+    FlightDisable: "&cYou have disabled flight."
+    FlightEnable_Others: "&aYou have enabled flight for playerName."
+    FlightDisable_Others: "&cYou have disabled flight for playerName."
+    BeenToggledOn: "playerName &ahas enabled your flight."
+    BeenToggledOff: "playerName &chas disabled your flight."
+  God:
+    GodEnable: "&aYou have enabled god."
+    GodDisable: "&cYou have disabled god."
+    GodEnable_Others: "&aYou have enabled god for playerName."
+    GodDisable_Others: "&cYou have disabled god for playerName."
+    BeenToggledOn: "playerName &ahas given you god."
+    BeenToggledOff: "playerName &chas given you god."
+  Rest:
+    RestAtInn: "&7You rest at &6@inn &7for a while."
