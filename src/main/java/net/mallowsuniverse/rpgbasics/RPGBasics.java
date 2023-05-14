@@ -1,6 +1,7 @@
 package net.mallowsuniverse.rpgbasics;
 
 import net.mallowsuniverse.rpgbasics.commands.Feed;
+import net.mallowsuniverse.rpgbasics.commands.Heal;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -19,7 +20,7 @@ public final class RPGBasics extends JavaPlugin {
                 "Version: " + pdfFile.getVersion()
         );
         saveDefaultConfig();
-        //new Heal(this);
+        new Heal(this);
         new Feed(this);
         //new God(this);
         //new Flight(this);
